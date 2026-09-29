@@ -1,0 +1,4 @@
+com/example/inventoryservice/listener/InventoryEventListener.class
+com/example/inventoryservice/InventoryServiceApplication.class
+com/example/inventoryservice/config/RabbitMQConfig.class
+com/example/inventoryservice/event/OrderCreatedEvent.class

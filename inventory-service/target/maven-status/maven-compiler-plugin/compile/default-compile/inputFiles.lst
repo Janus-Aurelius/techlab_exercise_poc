@@ -1,0 +1,4 @@
+/home/annguyen/master_projects/techlab/inventory-service/src/main/java/com/example/inventoryservice/InventoryServiceApplication.java
+/home/annguyen/master_projects/techlab/inventory-service/src/main/java/com/example/inventoryservice/listener/InventoryEventListener.java
+/home/annguyen/master_projects/techlab/inventory-service/src/main/java/com/example/inventoryservice/config/RabbitMQConfig.java
+/home/annguyen/master_projects/techlab/inventory-service/src/main/java/com/example/inventoryservice/event/OrderCreatedEvent.java

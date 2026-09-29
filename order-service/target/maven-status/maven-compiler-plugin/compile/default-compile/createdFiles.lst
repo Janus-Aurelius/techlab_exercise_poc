@@ -1,0 +1,5 @@
+com/example/orderservice/OrderServiceApplication.class
+com/example/orderservice/config/RabbitMQConfig.class
+com/example/orderservice/controller/OrderController.class
+com/example/orderservice/dto/OrderRequest.class
+com/example/orderservice/event/OrderCreatedEvent.class

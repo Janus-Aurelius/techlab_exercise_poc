@@ -1,0 +1,5 @@
+/home/annguyen/master_projects/techlab/order-service/src/main/java/com/example/orderservice/OrderServiceApplication.java
+/home/annguyen/master_projects/techlab/order-service/src/main/java/com/example/orderservice/controller/OrderController.java
+/home/annguyen/master_projects/techlab/order-service/src/main/java/com/example/orderservice/config/RabbitMQConfig.java
+/home/annguyen/master_projects/techlab/order-service/src/main/java/com/example/orderservice/event/OrderCreatedEvent.java
+/home/annguyen/master_projects/techlab/order-service/src/main/java/com/example/orderservice/dto/OrderRequest.java
