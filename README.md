@@ -7,7 +7,7 @@ This Proof of Concept (POC) demonstrates an **Event-Driven Choreography** archit
 
 ---
 
-## 🧪 Simulation Architecture & Concept
+## Simulation Architecture & Concept
 
 | Simulation Pillar | Mechanism & Behavior | Architectural Proof |
 | :--- | :--- | :--- |
@@ -17,7 +17,7 @@ This Proof of Concept (POC) demonstrates an **Event-Driven Choreography** archit
 
 ---
 
-## 🏗️ Exchange & Queue Topology
+## Exchange & Queue Topology
 
 ```
                   ┌──────────────────────┐
@@ -61,7 +61,7 @@ This Proof of Concept (POC) demonstrates an **Event-Driven Choreography** archit
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -97,7 +97,7 @@ This Proof of Concept (POC) demonstrates an **Event-Driven Choreography** archit
 
 ---
 
-## 📊 Empirical Simulation Results
+## Simulation Results
 
 ### Load Test Output (`./load-test.sh`)
 
@@ -140,7 +140,7 @@ This Proof of Concept (POC) demonstrates an **Event-Driven Choreography** archit
 
 ---
 
-## 📜 Raw Log Evidence from Services
+## Raw Log Evidence from Services
 
 ### 1. Order Service: Non-Blocking High-Throughput Ingestion
 The Order Service accepted orders and published events to RabbitMQ in ~13ms:
@@ -174,7 +174,7 @@ Caused by: org.springframework.amqp.AmqpRejectAndDontRequeueException: Simulated
 
 ---
 
-## ⚠️ Simulation Disclaimer & Limitations
+## Simulation Disclaimer & Limitations
 
 > [!NOTE]
 > **Localhost POC & Happy Path Context**:
@@ -184,7 +184,7 @@ Caused by: org.springframework.amqp.AmqpRejectAndDontRequeueException: Simulated
 
 ---
 
-## 🚀 Running the Stack
+## Running the Stack
 
 ```bash
 # Start all containers
@@ -196,3 +196,7 @@ docker compose up -d --build
 # Observe logs in real time
 docker compose logs -f payment-service
 ```
+
+## Contact
+This is the poc to the exercise, this property is owned by:
+Nguyen Thien An
